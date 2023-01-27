@@ -16,19 +16,18 @@
                 <div class="info">
                     <h3>Vintage Backpack</h3>
                     <div class="price">
-                        <span class="span1">$25.98</span>
+                        <span class="spanx">$</span><span class="span1">25.98</span>
                         <span class="span2">$34.99</span>
                     </div>
-                    <form>
+                    <form id="form">
                         <button class="minus">-</button>
-                        <input type="text" id="quantity"
-                        value="">
+                        <span id="quantity">1</span>
                         <button class="plus">+</button>
                     </form>
                     <button class="remove">Remove</button>
                     <div class="ptotal">
                         <p>Product Total: $</p>
-                        <span class="stotal"></span>
+                        <span id="stotal"></span>
                     </div> 
                 </div>
             </div>
@@ -37,19 +36,18 @@
                 <div class="info">
                     <h3>Vintage Backpack</h3>
                     <div class="price">
-                        <span class="span1">$45.99</span>
+                        <span class="spanx">$</span><span class="span1">45.99</span>
                         <span class="span2">$55.99</span>
                     </div>
                     <form>
                         <button class="minus">-</button>
-                        <input type="text" id="quantity"
-                        value="">
+                        <span id="quantity">1</span>
                         <button class="plus">+</button>
                     </form>
                     <button class="remove">Remove</button>
                     <div class="ptotal">
                         <p>Product Total: $</p>
-                        <span class="stotal"></span>
+                        <span id="stotal"></span>
                     </div> 
                 </div>
             </div>
@@ -58,41 +56,41 @@
                 <div class="info">
                     <h3>Vintage Backpack</h3>
                     <div class="price">
-                        <span class="span1">$74.99</span>
+                        <span class="spanx">$</span><span class="span1">74.99</span>
                         <span class="span2">$94.99</span>
                     </div>
                     <form>
                         <button class="minus">-</button>
-                        <input type="text" id="quantity"
-                        value="">
+                        <span id="quantity">1</span>
                         <button class="plus">+</button>
                     </form>
                     <button class="remove">Remove</button>
                     <div class="ptotal">
                         <p>Product Total: $</p>
-                        <span class="stotal"></span>
+                        <span id="stotal"></span>
                     </div> 
                 </div>
             </div>
         </div>
         <div class="main-total">
             <div class="subtotal">
-                <span class="left">Subtotal</span>
-                <span class="right">$</span>
+              <span class="left">Subtotal</span>
+              <span class="right">$ <span class="subt"></span></span>
             </div>
             <div class="subtotal">
-                <span class="left">Tax (18%)</span>
-                <span class="right">$</span>
+              <span class="left">Tax (18%)</span>
+              <span class="right">$ <span class="tax"></span></span>
             </div>
             <div class="subtotal">
-                <span class="left">Shipping</span>
-                <span class="right">$</span>
+              <span class="left">Shipping</span>
+              <span class="right">$ <span class="ship"></span></span>
             </div>
             <div class="subtotal">
-                <span class="left">Total</span>
-                <span class="right">$</span>
+              <span class="left">Total</span>
+              <span class="right">$ <span class="total"></span></span>
             </div>
-        </div>
+          </div>
     </main>
+    <script src="App.js"></script>
 </body>
 </html>

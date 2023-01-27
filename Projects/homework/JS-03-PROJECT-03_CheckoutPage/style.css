@@ -46,7 +46,7 @@ h3 {
     padding-bottom: 2rem;
 }
 
-.span1 {
+.span1, .spanx {
     color: orange;
     font-size: 1.6rem;
     font-weight: bold;
@@ -112,4 +112,6 @@ form button {
     padding-bottom: 1rem;
 }
 
-
+.ptotal {
+    display: flex;
+}
